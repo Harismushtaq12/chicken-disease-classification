@@ -36,3 +36,47 @@ It helps poultry farmers and veterinarians detect diseases early and reduce loss
 ---
 
 ## 📂 Project Structure
+chicken-disease-classification/
+├── notebooks/
+│ └── Chicken disease Classification.ipynb
+├── data/ # Dataset (not included)
+├── models/ # Saved models (optional)
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── LICENSE
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/chicken-disease-classification.git
+cd chicken-disease-classification
+
+```
+2. Install Dependencies
+```
+pip install -r requirements.txt
+```
+4. Run the notebook
+```
+jupyter notebook
+```
+▶️ Usage
+
+- Place the dataset inside the data/ directory
+- Open the notebook from the notebooks/ folder
+- Run the cells step by step to train and evaluate the model
+
+📊 Results
+
+- The CNN model achieves good accuracy on validation data
+- Performance visualization is included in the notebook
+
+📌 Future Improvements
+
+- Add more disease classes
+- Use transfer learning models (ResNet, MobileNet)
+- Deploy using a web interface (Streamlit / Flask)
