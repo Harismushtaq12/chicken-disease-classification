@@ -3,38 +3,53 @@ An image-based chicken disease classification project using convolutional neural
 # 🐔 Chicken Disease Classification using Deep Learning
 
 This project focuses on classifying chicken diseases from images using deep learning techniques.  
-It helps poultry farmers and veterinarians detect diseases early and reduce losses.
+It aims to assist in early disease detection for better poultry health management.
 
 ---
 
-## 🚀 Features
-- Image-based disease classification
-- Deep Learning model (CNN)
-- Jupyter Notebook implementation
-- Easy to understand and modify
-- Suitable for academic & practical use
+## 📌 Project Overview
+
+Chicken diseases can cause serious losses in poultry farming. Traditional diagnosis methods are time-consuming and require expert knowledge.  
+This project uses a **Convolutional Neural Network (CNN)** to automatically classify chicken diseases from image data.
+
+The model is trained and evaluated using a publicly available Kaggle dataset.
 
 ---
 
-## 🧠 Diseases Covered
-- Healthy Chicken
-- Coccidiosis
-- Newcastle Disease
-- Salmonella  
-*(based on dataset availability)*
+## 📁 Dataset Used
+
+**Chicken Disease 1 – Kaggle Dataset**
+
+🔗 Dataset link:  
+https://www.kaggle.com/datasets/allandclive/chicken-disease-1
+
+The dataset contains labeled images of different chicken diseases and healthy chickens, divided into training and testing sets.
+
+> ⚠️ Note: The dataset is **not included** in this repository due to size limitations.  
+> Please download it manually from Kaggle and place it inside the `data/` directory.
+
+---
+
+## 🧠 Features
+
+- Image-based chicken disease classification  
+- CNN-based deep learning model  
+- Implemented using Jupyter Notebook  
+- Clear training and evaluation pipeline  
+- Suitable for academic and learning purposes  
 
 ---
 
 ## 🛠️ Tech Stack
-- Python
-- TensorFlow / Keras
-- NumPy
-- Matplotlib
-- OpenCV
-- Jupyter Notebook
+
+- Python  
+- TensorFlow / Keras  
+- NumPy  
+- Matplotlib  
+- OpenCV  
+- Jupyter Notebook  
 
 ---
-
 ## 📂 Project Structure
 chicken-disease-classification/
 ├── notebooks/
@@ -54,7 +69,6 @@ chicken-disease-classification/
 ```bash
 git clone https://github.com/your-username/chicken-disease-classification.git
 cd chicken-disease-classification
-
 ```
 2. Install Dependencies
 ```
@@ -66,7 +80,7 @@ jupyter notebook
 ```
 ▶️ Usage
 
-- Place the dataset inside the data/ directory
+- Download and extract the dataset into the data/ directory
 - Open the notebook from the notebooks/ folder
 - Run the cells step by step to train and evaluate the model
 
@@ -80,3 +94,6 @@ jupyter notebook
 - Add more disease classes
 - Use transfer learning models (ResNet, MobileNet)
 - Deploy using a web interface (Streamlit / Flask)
+
+👤 Author
+- Mohammad Haris Mushtaq
