@@ -97,3 +97,5 @@ jupyter notebook
 
 👤 Author
 - Mohammad Haris Mushtaq
+- Saad Hamid
+- Muhammad Obaida
